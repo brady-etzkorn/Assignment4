@@ -1,1 +1,3 @@
+1. Bubble sort takes longer because it makes more swaps than both insertion and selection sorts. Since bubble sort compares the neighboring elements until they're sorted fully.
 
+2. Like what was said for #1 the number of swaps that are done for certain selection algorithms is what makes them perform differently from each other.
