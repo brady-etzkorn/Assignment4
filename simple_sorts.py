@@ -31,5 +31,5 @@ def insertion_sort(lst):
         while j >= 0 and lst[j] > key:
             lst[j + 1] = lst[j]
             j -= 1
-        lst[j + 1] == key
+        lst[j + 1] = key
     
