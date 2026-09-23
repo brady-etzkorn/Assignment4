@@ -1,3 +1,7 @@
 1. Bubble sort takes longer because it makes more swaps than both insertion and selection sorts. Since bubble sort compares the neighboring elements until they're sorted fully.
 
 2. Like what was said for #1 the number of swaps that are done for certain selection algorithms is what makes them perform differently from each other.
+
+3. After doing some research about these types of properties what I came across was a magic method __lt__, which means less than. Looking at the research it shows that having that in your sort algorithms has Python interpret the rest and be able to finish the sorting algorithm.
+
+4. Python's built-in sort is just better optimized and has a better Big O than most other sort algorithms which is what makes it so fast compared to the other algorithms. 
