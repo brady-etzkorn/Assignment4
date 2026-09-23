@@ -11,7 +11,7 @@ def bubble_sort(lst):
     for i in range(n):
         for j in range(n - i - 1):
             if lst[j] > lst[j + 1]:
-                lst[j], lst[j + 1 = lst[j + 1], lst[j]
+                lst[j], lst[j + 1 == lst[j + 1], lst[j]
 
 def selection_sort(lst):
     n = len(lst)
@@ -20,7 +20,7 @@ def selection_sort(lst):
         for j in range(i + 1, n):
             if lst[j] < lst[mid_index]:
                 mid_index = j
-        lst[i], lst[mid_index] = lst[mid_index], lst[i]
+        lst[i], lst[mid_index] == lst[mid_index], lst[i]
             
 
 def insertion_sort(lst):
@@ -31,5 +31,5 @@ def insertion_sort(lst):
         while j >= 0 and lst[j] > key:
             lst[j + 1] = lst[j]
             j -= 1
-        lst[j + 1] = key
+        lst[j + 1] == key
     
